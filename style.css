@@ -153,22 +153,18 @@ article img {
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 20vw;
+  max-width: 25vw;
   background: var(--disabled-color);
   border-style: solid;
   border-color: var(--text-color);
   min-width: 200px;
-  margin: 10px 0;
+  margin: 15px;
   transition-duration: var(--animation-speed);
 }
 
 .card:hover {
   border-color: var(--highlight-color);
   transform: scale(1.05);
-}
-
-.card:not(:first-child):not(:last-child) {
-  margin: 10px;
 }
 
 .card-heading {
