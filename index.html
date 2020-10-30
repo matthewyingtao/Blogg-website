@@ -9,27 +9,13 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="animate.css" />
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-
-	</script>
-	<script src="owlcarousel/owl.carousel.min.js">
-
-	</script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
-
-	</script>
-	<script src="script.js">
-
-	</script>
-
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
 </head>
 
 <body onload="new WOW().init();">
 	<header>
 		<div class="logo">
-			<a href="index.html"><img src="assets/bean.png" class="logo-img"></a>
+			<img src="assets/bean.png" class="logo-img">
             <h1 class="logo-text">BLOGG</h1>
         </div>
         <nav>
@@ -55,39 +41,61 @@
         </section>
         <section class="column narrow">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="1s">Coming Features</h1>
-            <div class="card-row">
-                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+            <div class="owl-carousel owl-theme wow animate__fadeInUp" data-wow-duration="1s">
+                <div class="card">
                     <img src="assets/landscape.jpg" class="card-img">
                     <h2 class="card-heading">Accounts</h2>
                     <p class="card-body">
                         Cause you need to see who posted what
                     </p>
                 </div>
-                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+                <div class="card">
                     <img src="assets/clock.jpg" class="card-img">
                     <h2 class="card-heading">Timestamps</h2>
                     <p class="card-body">
                         Timestamps are already implemented server-side and would only need frontend work.
                     </p>
                 </div>
-                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+                <div class="card">
                     <img src="assets/heart.jpg" class="card-img">
                     <h2 class="card-heading">Likes and Favorites</h2>
                     <p class="card-body">
                         So you can know which posts are the most popular.
                     </p>
                 </div>
-                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
-                    <img src="assets/clock.jpg" class="card-img">
-                    <h2 class="card-heading">Different pages with other content</h2>
+                <div class="card">
+                    <img src="assets/heart.jpg" class="card-img">
+                    <h2 class="card-heading">filler</h2>
                     <p class="card-body">
-                        Adding to the website making different pages
+                        filler doing its job of having text tot fill the page
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/heart.jpg" class="card-img">
+                    <h2 class="card-heading">filler</h2>
+                    <p class="card-body">
+                        filler doing its job of having text tot fill the page
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/heart.jpg" class="card-img">
+                    <h2 class="card-heading">filler</h2>
+                    <p class="card-body">
+                        filler doing its job of having text tot fill the page
                     </p>
                 </div>
             </div>
         </section>
         <footer>I'm the footer</footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="owlcarousel/owl.carousel.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+	</script>
+	<script src="script.js">
+	</script>
 </body>
 
 </html>

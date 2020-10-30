@@ -1,3 +1,22 @@
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        stagePadding: 50,
+        nav: true,
+        lazyLoad: true,
+        dots: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            1000:{
+                items:3
+            }
+        },
+    })
+});
+
 var scrolledTop = 10;
 
 $(document).scroll(function() { 
