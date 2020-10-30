@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Blogg</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="animate.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+
+	</script>
+	<script src="script.js">
+	</script>
+
+</head>
+
+<body onload="new WOW().init();">
+	<header>
+		<div class="logo">
+			<img src="assets/bean.png" class="logo-img">
+            <h1 class="logo-text">BLOGG</h1>
+        </div>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Join</a>
+        </nav>
+	</header>
+    <main>
+        <section>
+            <article class="wow animate__fadeInDown" data-wow-duration="1s">
+                <h1>Hello I'm Matthew</h1>
+                <p>I made a terrible blogging app with a Flask-based backend and used Flutter to develop the frontend.</p>
+                <h3>Many people around the world are using Blogg such as:</h3>
+                <ul>
+                    <li>john</li>
+                </ul>
+                <button class="right" onclick="window.open('http://witty-tree.surge.sh/#/');">Join</button>
+            </article>
+            <article>
+                <img src="assets/mockup.jpg" class="right wow animate__fadeIn" data-wow-duration="1s">
+            </article>
+        </section>
+        <section class="column narrow">
+            <h1 class="wow animate__fadeInLeft" data-wow-duration="1s">Coming Features</h1>
+            <div class="card-row">
+                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+                    <img src="assets/landscape.jpg" class="card-img">
+                    <h2 class="card-heading">Accounts</h2>
+                    <p class="card-body">
+                        Cause you need to see who posted what
+                    </p>
+                </div>
+                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+                    <img src="assets/clock.jpg" class="card-img">
+                    <h2 class="card-heading">Timestamps</h2>
+                    <p class="card-body">
+                        Timestamps are already implemented server-side and would only need frontend work.
+                    </p>
+                </div>
+                <div class="card wow animate__fadeInUp" data-wow-duration="1s">
+                    <img src="assets/heart.jpg" class="card-img">
+                    <h2 class="card-heading">Likes and Favorites</h2>
+                    <p class="card-body">
+                        So you can know which posts are the most popular.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>I'm the footer</footer>
+    </main>
+</body>
+
+</html>
